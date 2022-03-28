@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useEffect } from "react/cjs/react.development";
 import styles from "../styles/Home.module.css";
 import LandingUI from "../components/layoutComponents/LandingUI";
+import About from "../components/layoutComponents/About";
 
 export default function Home() {
   useEffect(() => {
@@ -18,6 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <LandingUI />
+      <About />
     </div>
   );
 }
