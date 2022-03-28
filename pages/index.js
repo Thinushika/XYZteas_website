@@ -3,6 +3,7 @@ import { useEffect } from "react/cjs/react.development";
 import styles from "../styles/Home.module.css";
 import LandingUI from "../components/layoutComponents/LandingUI";
 import About from "../components/layoutComponents/About";
+import Cards from "../components/layoutComponents/Cards";
 
 export default function Home() {
   useEffect(() => {
@@ -20,6 +21,7 @@ export default function Home() {
       </Head>
       <LandingUI />
       <About />
+      <Cards />
     </div>
   );
 }
