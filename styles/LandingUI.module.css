@@ -1,0 +1,17 @@
+.container {
+  position: absolute;
+  top: 0;
+  background: #dd2476;
+  background: var(--bggradient);
+  height: 100vh;
+}
+.colText {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+}
+.colImage {
+  padding: 4.2vmin 1vmin;
+}
+.Image {
+  width: 90%;
+}

@@ -9,27 +9,27 @@ import {
 const Footer = () => {
   return (
     <>
-      <div class="container-fluid p-0">
-        <div class="row text-left">
-          <div class="col-md-5 col-sm-12">
-            <h1 class="text-light">About us</h1>
-            <p class="text-muted">
+      <div className="container-fluid p-0">
+        <div className="row text-left">
+          <div className="col-md-5 col-sm-12">
+            <h1 className="text-light">About us</h1>
+            <p className="text-muted">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero,
               nisi debitis. Explicabo nesciunt aliquam a!
             </p>
-            <p class="pt-4 text-muted">
+            <p className="pt-4 text-muted">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero,
               nisi debitis. Explicabo nesciunt aliquam a!
             </p>
           </div>
-          <div class="col-md-5 col-sm-12">
-            <h4 class="text-light">About us</h4>
-            <p class="text-muted">Tea Leaves</p>
+          <div className="col-md-5 col-sm-12">
+            <h4 className="text-light">About us</h4>
+            <p className="text-muted">Tea Leaves</p>
           </div>
-          <div class="col-md-2 col-sm-12">
-            <h4 class="text-light">Follow us</h4>
-            <p class="text-muted">See us on social</p>
-            <div class="column">
+          <div className="col-md-2 col-sm-12">
+            <h4 className="text-light">Follow us</h4>
+            <p className="text-muted">See us on social</p>
+            <div className="column">
               <FaFacebookF />
               <FaInstagramSquare />
               <FaTwitter />

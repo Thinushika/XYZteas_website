@@ -4,8 +4,8 @@ import data from "../data/cards.json";
 const Cards = () => {
   return (
     <>
-      <div class="cover">
-        <div class="container text-center">
+      <div className="cover">
+        <div className="container text-center">
           <h1>Tea Leaves</h1>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit omnis
@@ -14,11 +14,11 @@ const Cards = () => {
           </p>
         </div>
       </div>
-      <div class="container-fluid text-center">
-        <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+      <div className="container-fluid text-center">
+        <div className="numbers d-flex flex-md-row flex-wrap justify-content-center">
           {data.map((post) => {
             return (
-              <div class="rect">
+              <div className="rect">
                 <h1>{post.number}</h1>
                 <p>{post.desc}</p>
               </div>

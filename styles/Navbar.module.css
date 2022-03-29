@@ -1,19 +1,19 @@
-.navbarBrand {
+.navbar-brand {
   padding-left: 0.9em;
   background-color: rgba(0, 0, 0, 0);
 }
-.navbarLink {
+.nav-link {
   padding-left: 0.8em;
   color: whitesmoke;
   text-decoration: none;
 }
-.navbarLink:hover {
+.nav-link:hover {
   color: black;
 }
-.navItem:last-child {
+.nav-item:last-child {
   padding-right: 4em;
 }
-.navItem {
+.nav-item {
   padding: 0.9em;
 }
 .logo {

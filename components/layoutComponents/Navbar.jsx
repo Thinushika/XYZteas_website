@@ -1,20 +1,20 @@
 import React from "react";
-import styles from "../../styles/Navbar.module.css";
 
 const Navbar = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" className={styles.navbarBrand}>
+      <nav className="navbar navbar-expand-lg sticky-top">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
             <img
               src="../../images/logo.png"
               alt="XYZ teas logo"
-              className={styles.logo}
+              width={80}
+              height={80}
             />
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -22,38 +22,37 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="mx-auto"></div>
-            <ul class="navbar-nav">
-              <li class="nav-item" className={styles.navItem}>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <div className="mx-auto"></div>
+            <ul className="navbar-nav">
+              <li className="nav-item">
                 <a
-                  class="nav-link active"
+                  className="nav-link active text-white"
                   aria-current="page"
                   href="#"
-                  className={styles.navbarLink}
                 >
                   HOME
                 </a>
               </li>
-              <li class="nav-item" className={styles.navItem}>
-                <a class="nav-link" href="#" className={styles.navbarLink}>
+              <li className="nav-item">
+                <a className="nav-link text-white" href="#">
                   PRODUCTS
                 </a>
               </li>
-              <li class="nav-item" className={styles.navItem}>
-                <a class="nav-link" href="#" className={styles.navbarLink}>
+              <li className="nav-item">
+                <a className="nav-link text-white" href="#">
                   OUR SERVICES
                 </a>
               </li>
-              <li class="nav-item" className={styles.navItem}>
-                <a class="nav-link" href="#" className={styles.navbarLink}>
+              <li className="nav-item">
+                <a className="nav-link text-white" href="#">
                   ABOUT
                 </a>
               </li>
-              <li class="nav-item" className={styles.navItem}>
-                <a class="nav-link" href="#" className={styles.navbarLink}>
+              <li className="nav-item">
+                <a className="nav-link text-white" href="#">
                   CONTACT
                 </a>
               </li>
