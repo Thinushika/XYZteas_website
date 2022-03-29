@@ -5,6 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -14,4 +15,17 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+:root {
+  --Poppins-font: "Poppins", sans-serif;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+a {
+  font-family: var(--Poppins-font);
+  font-size: 0.9em;
+  color: whitesmoke;
 }
