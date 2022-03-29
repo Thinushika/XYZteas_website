@@ -8,11 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -24,8 +19,33 @@ a {
   --light-gray: rgba(255, 255, 255, 0.877);
 }
 
-a {
-  font-family: var(--Poppins-font);
-  font-size: 0.9em;
-  color: whitesmoke;
+.navbar-brand {
+  padding-left: 0.9em;
+  background-color: rgba(0, 0, 0, 0);
+}
+.nav-link {
+  padding-left: 8rem;
+  text-decoration: none;
+  color: rgb(104, 104, 104);
+}
+.nav-link:hover {
+  text-decoration: none;
+  color: black;
+}
+.nav-item:last-child {
+  padding-right: 4em;
+}
+.nav-item {
+  padding: 0.9em;
+}
+.row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+  margin-top: auto;
+}
+.row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+.row .col-md-5 img {
+  width: 90%;
 }

@@ -1,13 +1,16 @@
-import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Structure from "../components";
+import "../styles/globals.css";
+import App from "next/app";
 
 function MyApp({ Component, pageProps }) {
-  return (
-    <Structure>
-      <Component {...pageProps} />
-    </Structure>
-  );
+  return <Component {...pageProps} />;
 }
+
+MyApp.getInitialProps = async (appContext) => {
+  // calls page's `getInitialProps` and fills `appProps.pageProps`
+  const appProps = await App.getInitialProps(appContext);
+
+  return { ...appProps };
+};
 
 export default MyApp;
