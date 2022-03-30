@@ -6,7 +6,7 @@ const Cards = () => {
     <>
       <div className="cover">
         <div className="container text-center">
-          <h1>Our Products</h1>
+          <h1>Our Collection of Products</h1>
         </div>
       </div>
       <div className="container-fluid text-center">
