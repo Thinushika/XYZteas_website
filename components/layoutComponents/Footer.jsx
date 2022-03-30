@@ -14,7 +14,7 @@ const Footer = () => {
         style={{ backgroundColor: "#141414" }}
       >
         <div className="row text-left">
-          <div className="col-md-5 col-sm-12 p-5">
+          <div className="col-md-4 col-sm-12 p-5">
             <h1 className="text-light">About us</h1>
             <p className="text-muted">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero,
@@ -25,11 +25,11 @@ const Footer = () => {
               nisi debitis. Explicabo nesciunt aliquam a!
             </p>
           </div>
-          <div className="col-md-5 col-sm-12 p-5">
-            <h4 className="text-light">About us</h4>
+          <div className="col-md-4 col-sm-12 p-5">
+            <h4 className="text-light">Location</h4>
             <p className="text-muted">Tea Leaves</p>
           </div>
-          <div className="col-md-2 col-sm-12 py-5 px-0">
+          <div className="col-md-4 col-sm-12 p-5">
             <h4 className="text-light">Follow us</h4>
             <p className="text-muted">See us on social</p>
             <div
@@ -40,10 +40,54 @@ const Footer = () => {
                 justifyContent: "space-between",
               }}
             >
-              <FaFacebookF style={{ marginRight: "0.5em" }} />
-              <FaInstagramSquare style={{ marginRight: "0.5em" }} />
-              <FaTwitter style={{ marginRight: "0.5em" }} />
-              <FaYoutube style={{ marginRight: "0.5em" }} />
+              <button
+                type="button"
+                class="btn btn-icon m-1 "
+                style={{
+                  backgroundColor: "whitesmoke",
+                  borderRadius: "50%",
+                  width: "40px",
+                  height: "40px",
+                }}
+              >
+                <FaFacebookF />
+              </button>
+              <button
+                type="button"
+                class="btn btn-icon m-1 "
+                style={{
+                  backgroundColor: "whitesmoke",
+                  borderRadius: "50%",
+                  width: "40px",
+                  height: "40px",
+                }}
+              >
+                <FaInstagramSquare />
+              </button>
+              <button
+                type="button"
+                class="btn btn-icon m-1 "
+                style={{
+                  backgroundColor: "whitesmoke",
+                  borderRadius: "50%",
+                  width: "40px",
+                  height: "40px",
+                }}
+              >
+                <FaTwitter />
+              </button>
+              <button
+                type="button"
+                class="btn btn-icon m-1 "
+                style={{
+                  backgroundColor: "whitesmoke",
+                  borderRadius: "50%",
+                  width: "40px",
+                  height: "40px",
+                }}
+              >
+                <FaYoutube />
+              </button>
             </div>
           </div>
         </div>
@@ -55,7 +99,8 @@ const Footer = () => {
               fontSize: "0.9em",
             }}
           >
-            copyright 2022
+            <hr />
+            &copy; 2022 | XYZteas (Pvt) Ltd
           </div>
         </div>
       </div>
