@@ -27,9 +27,36 @@ const Footer = () => {
           </div>
           <div className="col-md-4 col-sm-12 p-5">
             <h4 className="text-light">Location</h4>
-            <p className="text-muted">Tea Leaves</p>
+            <p className="text-muted">
+              Head office and facilities:
+              <br /> XYZteas (Pvt)Ltd
+              <br /> Sri Lanka
+            </p>
+            <p className="text-muted">Tel: +9400 000 0000</p>
+            <p className="text-muted">E-mail: info@xyzteas.lk</p>
           </div>
           <div className="col-md-4 col-sm-12 p-5">
+            <h4 className="text-light">Contact us</h4>
+            <input
+              type="email"
+              className="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            ></input>
+            <button
+              type="submit"
+              className="btn"
+              style={{
+                margin: "10px",
+                marginLeft: "0px",
+                backgroundColor: "green",
+                color: "whitesmoke",
+              }}
+            >
+              Submit
+            </button>
+            <br />
             <h4 className="text-light">Follow us</h4>
             <p className="text-muted">See us on social</p>
             <div
@@ -49,6 +76,9 @@ const Footer = () => {
                   width: "40px",
                   height: "40px",
                 }}
+                data-toggle="tooltip"
+                data-placement="top"
+                title="FaceBook"
               >
                 <FaFacebookF />
               </button>
@@ -61,6 +91,9 @@ const Footer = () => {
                   width: "40px",
                   height: "40px",
                 }}
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Instagram"
               >
                 <FaInstagramSquare />
               </button>
@@ -73,6 +106,9 @@ const Footer = () => {
                   width: "40px",
                   height: "40px",
                 }}
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Twitter"
               >
                 <FaTwitter />
               </button>
@@ -85,6 +121,9 @@ const Footer = () => {
                   width: "40px",
                   height: "40px",
                 }}
+                data-toggle="tooltip"
+                data-placement="top"
+                title="YouTube"
               >
                 <FaYoutube />
               </button>
