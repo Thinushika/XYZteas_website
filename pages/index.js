@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import LandingUI from "../components/layoutComponents/LandingUI";
 import About from "../components/layoutComponents/About";
 import Products from "../components/layoutComponents/Products";
@@ -26,10 +27,10 @@ export default function Home() {
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            <img
-              src="../../images/logo.png"
+            <Image
+              src="/images/XYZlogo.png"
               alt="XYZ teas logo"
-              width={60}
+              width={120}
               height={60}
             />
           </a>
