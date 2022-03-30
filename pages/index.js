@@ -3,6 +3,7 @@ import LandingUI from "../components/layoutComponents/LandingUI";
 import About from "../components/layoutComponents/About";
 import Products from "../components/layoutComponents/Products";
 import Footer from "../components/layoutComponents/Footer";
+import Services from "../components/layoutComponents/Services";
 
 export default function Home() {
   return (
@@ -62,16 +63,16 @@ export default function Home() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#section-3">
-                  OUR SERVICES
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#section-3">
                   ABOUT
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#section-4">
+                  OUR SERVICES
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#section-5">
                   CONTACT
                 </a>
               </li>
@@ -91,6 +92,9 @@ export default function Home() {
         <About />
       </section>
       <section id="section-4">
+        <Services />
+      </section>
+      <section id="section-5">
         <Footer />
       </section>
     </div>
