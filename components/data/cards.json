@@ -1,22 +1,20 @@
 [
     {
         "id":1,
+        "image":"/images/black.jpg",
         "title": "Black Tea",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit Sit omnis asperiores aliquid"
     },
     {
         "id":2,
+        "image":"/images/green.jpg",
         "title": "Green Tea",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit Sit omnis asperiores aliquid"
     },
     {
         "id":3,
+        "image":"/images/white.jpg",
         "title": "White Tea",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit Sit omnis asperiores aliquid"
-    },
-    {
-        "id":4,
-        "title": "Oologol Tea",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit Sit omnis asperiores aliquid"
     }
 ]
