@@ -44,14 +44,6 @@ const LandingUI = () => {
           </p>
         </div>
       </div>
-      {/* <div className="col-md-5 col-sm-12 h-25">
-            <Image
-              src="/images/teaLeaves.png"
-              alt="tea"
-              width={400}
-              height={600}
-            />
-          </div> */}
     </>
   );
 };
