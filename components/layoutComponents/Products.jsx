@@ -23,6 +23,7 @@ const Cards = () => {
                   boxShadow: "0 8px 16px 0 rgba(0,0,0,0.2)",
                 }}
                 key={post.id}
+                data-aos="zoom-in-down"
               >
                 <img
                   className="card-img-top"
