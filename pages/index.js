@@ -55,14 +55,36 @@ export default function Home() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="#section-2" passHref>
-                  <a className="nav-link ">PRODUCTS</a>
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link href="#section-3" passHref>
                   <a className="nav-link ">ABOUT</a>
                 </Link>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  PRODUCTS
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="#section-2">
+                    BLACK TEA RANGE
+                  </a>
+                  <a class="dropdown-item" href="#section-2">
+                    GREEN TEA RANGE
+                  </a>
+                  <a class="dropdown-item" href="#section-2">
+                    WHITE TEA RANGE
+                  </a>
+                </div>
               </li>
               <li className="nav-item">
                 <Link href="#section-4" passHref>
