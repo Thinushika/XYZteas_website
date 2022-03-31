@@ -50,32 +50,28 @@ export default function Home() {
             <div className="mx-auto"></div>
             <ul className="navbar-nav p-3">
               <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  href="#section-1"
-                >
-                  HOME
+                <Link aria-current="page" href="#section-1">
+                  <a className="nav-link active">HOME</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link " href="#section-2">
-                  PRODUCTS
+                  <a className="nav-link active">PRODUCTS</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" href="#section-3">
-                  ABOUT
+                  <a className="nav-link active">ABOUT</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" href="#section-4">
-                  OUR SERVICES
+                  <a className="nav-link active">OUR SERVICES</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" href="#section-5">
-                  CONTACT
+                  <a className="nav-link active">CONTACT</a>
                 </Link>
               </li>
             </ul>
