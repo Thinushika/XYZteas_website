@@ -59,9 +59,9 @@ export default function Home() {
                   <a className="nav-link ">ABOUT</a>
                 </Link>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   href="#"
                   id="navbarDropdownMenuLink"
                   role="button"
@@ -72,16 +72,16 @@ export default function Home() {
                   PRODUCTS
                 </a>
                 <div
-                  class="dropdown-menu"
+                  className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a class="dropdown-item" href="#section-2">
+                  <a className="dropdown-item" href="#section-2">
                     BLACK TEA RANGE
                   </a>
-                  <a class="dropdown-item" href="#section-2">
+                  <a className="dropdown-item" href="#section-2">
                     GREEN TEA RANGE
                   </a>
-                  <a class="dropdown-item" href="#section-2">
+                  <a className="dropdown-item" href="#section-2">
                     WHITE TEA RANGE
                   </a>
                 </div>
