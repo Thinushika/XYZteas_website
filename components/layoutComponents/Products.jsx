@@ -1,11 +1,10 @@
 import React from "react";
-import data from "../data/cards.json";
 
 const Cards = () => {
   return (
     <>
       <div className="cover">
-        <div className="container text-center">
+        <div className="container text-center m-4 ">
           <h1>Our Collection of Products</h1>
         </div>
       </div>
