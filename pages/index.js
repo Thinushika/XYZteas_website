@@ -27,7 +27,7 @@ export default function Home() {
         style={{ backgroundColor: "#FFF", height: "80px" }}
       >
         <div className="container-fluid">
-          <Link className="navbar-brand" href="/">
+          <Link className="navbar-brand" href="/" passHref>
             <Image
               src="/images/XYZlogo.png"
               alt="XYZ teas logo"
@@ -50,26 +50,26 @@ export default function Home() {
             <div className="mx-auto"></div>
             <ul className="navbar-nav p-3">
               <li className="nav-item">
-                <Link aria-current="page" href="#section-1">
+                <Link aria-current="page" href="#section-1" passHref>
                   <a className="nav-link active">HOME</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="#section-2">
+                <Link href="#section-2" passHref>
                   <a className="nav-link ">PRODUCTS</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="#section-3">
+                <Link href="#section-3" passHref>
                   <a className="nav-link ">ABOUT</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="#section-4">
+                <Link href="#section-4" passHref>
                   <a className="nav-link ">OUR SERVICES</a>
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" passHref>
                 <Link href="#section-5">
                   <a className="nav-link ">CONTACT</a>
                 </Link>
@@ -95,17 +95,6 @@ export default function Home() {
       <section id="section-5">
         <Footer />
       </section>
-
-      <script
-        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"
-      ></script>
     </div>
   );
 }
