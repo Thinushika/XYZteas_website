@@ -69,7 +69,7 @@ const Footer = () => {
             >
               <button
                 type="button"
-                class="btn btn-icon m-1 "
+                className="btn btn-icon m-1 "
                 style={{
                   backgroundColor: "whitesmoke",
                   borderRadius: "50%",
@@ -84,7 +84,7 @@ const Footer = () => {
               </button>
               <button
                 type="button"
-                class="btn btn-icon m-1 "
+                className="btn btn-icon m-1 "
                 style={{
                   backgroundColor: "whitesmoke",
                   borderRadius: "50%",
@@ -99,7 +99,7 @@ const Footer = () => {
               </button>
               <button
                 type="button"
-                class="btn btn-icon m-1 "
+                className="btn btn-icon m-1 "
                 style={{
                   backgroundColor: "whitesmoke",
                   borderRadius: "50%",
@@ -114,7 +114,7 @@ const Footer = () => {
               </button>
               <button
                 type="button"
-                class="btn btn-icon m-1 "
+                className="btn btn-icon m-1 "
                 style={{
                   backgroundColor: "whitesmoke",
                   borderRadius: "50%",
