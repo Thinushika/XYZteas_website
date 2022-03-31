@@ -132,6 +132,46 @@ const Deference = () => {
             </div>
           </div>
         </div>
+        <div className="row p-5" data-aos="fade-up">
+          <h2
+            style={{
+              color: "#B8B9AA",
+              fontWeight: "400",
+              letterSpacing: "0.07em",
+              lineHeight: "0.5em",
+            }}
+          >
+            We Value <br />{" "}
+            <span
+              style={{
+                color: "#141414",
+                fontSize: "1.5em",
+                fontWeight: "600",
+                letterSpacing: "0.07em",
+                lineHeight: "1.7em",
+              }}
+            >
+              <span
+                style={{
+                  color: "#141414",
+                  backgroundColor: "#B8B9AA",
+                }}
+              >
+                Quality
+              </span>
+              <span> before </span>
+              <span
+                style={{
+                  color: "#141414",
+                  backgroundColor: "#B8B9AA",
+                }}
+              >
+                Quantity
+              </span>
+            </span>{" "}
+            <br />
+          </h2>
+        </div>
       </div>
     </>
   );
