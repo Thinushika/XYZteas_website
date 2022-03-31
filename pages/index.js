@@ -5,6 +5,7 @@ import About from "../components/layoutComponents/About";
 import Products from "../components/layoutComponents/Products";
 import Footer from "../components/layoutComponents/Footer";
 import Services from "../components/layoutComponents/Services";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -26,14 +27,14 @@ export default function Home() {
         style={{ backgroundColor: "#FFF", height: "80px" }}
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" href="/">
             <Image
               src="/images/XYZlogo.png"
               alt="XYZ teas logo"
               width={120}
               height={60}
             />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -49,33 +50,33 @@ export default function Home() {
             <div className="mx-auto"></div>
             <ul className="navbar-nav p-3">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active"
                   aria-current="page"
                   href="#section-1"
                 >
                   HOME
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link " href="#section-2">
+                <Link className="nav-link " href="#section-2">
                   PRODUCTS
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#section-3">
+                <Link className="nav-link" href="#section-3">
                   ABOUT
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#section-4">
+                <Link className="nav-link" href="#section-4">
                   OUR SERVICES
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#section-5">
+                <Link className="nav-link" href="#section-5">
                   CONTACT
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
