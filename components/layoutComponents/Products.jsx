@@ -3,8 +3,8 @@ import React from "react";
 const Cards = () => {
   return (
     <>
-      <div className="cover">
-        <div className="container text-center m-4 ">
+      <div className="container">
+        <div className="container m-4 text-center " style={{}}>
           <h1>Our Collection of Products</h1>
         </div>
       </div>
