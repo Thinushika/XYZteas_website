@@ -29,7 +29,9 @@ const LandingUI = () => {
             borderRadius: "20px",
           }}
         >
-          <h6 style={{ fontWeight: "600", color: "#141414" }}>
+          <h6
+            style={{ fontWeight: "600", fontSize: "1.3em", color: "#141414" }}
+          >
             Over 60 years in the tea industry
           </h6>
           <div
@@ -58,7 +60,7 @@ const LandingUI = () => {
             style={{
               fontWeight: "500",
               color: "#141414",
-              fontSize: "0.9em",
+              fontSize: "1em",
             }}
           >
             We export the best qaility tea for over 18+ years by maintaining the
