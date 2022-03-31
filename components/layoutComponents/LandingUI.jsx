@@ -47,9 +47,11 @@ const LandingUI = () => {
               fontSize: "0.9em",
             }}
           >
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
-            <br /> omnis asperiores aliquid minus labore accusamus natus,
-            <br /> quos velit exercitationem aut?
+            We export the best qaility tea for over 18+ years
+            <br />
+            by maintaining the standard expected of authentic
+            <br />
+            Ceylon Tea and local ingredients, and taking Sri Lanka to the world.
           </p>
         </div>
       </div>
