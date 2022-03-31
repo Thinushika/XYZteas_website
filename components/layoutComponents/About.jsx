@@ -76,7 +76,6 @@ const About = () => {
                 width: "140%",
                 backgroundColor: "#000",
                 opacity: "0.5",
-                zIndex: "1",
                 overflow: "hidden",
               }}
             >
