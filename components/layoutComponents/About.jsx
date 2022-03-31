@@ -19,14 +19,25 @@ const About = () => {
                 letterSpacing: "0.07em",
               }}
             >
-              We've Been Exporting For Over
+              We've Been{" "}
+              <span
+                style={{
+                  lineHeight: "1.7em",
+                }}
+              >
+                Exporting For Over
+              </span>{" "}
+              <br />
               <span
                 style={{
                   paddingLeft: "0.5em",
-                  color: "#00ff00",
+                  color: "#141414",
+                  backgroundColor: "#B8B9AA",
+                  fontSize: "1.5em",
+                  paddingRight: "0.5em",
                 }}
               >
-                18 Years
+                18+ YEARS
               </span>
             </h1>
             <p
@@ -62,7 +73,7 @@ const About = () => {
               className="overlay"
               style={{
                 position: "relative",
-                width: "130%",
+                width: "140%",
                 backgroundColor: "#000",
                 opacity: "0.5",
                 zIndex: "1",
