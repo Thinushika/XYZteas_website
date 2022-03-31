@@ -86,8 +86,8 @@ export default function Home() {
                   <a className="nav-link ">OUR SERVICES</a>
                 </Link>
               </li>
-              <li className="nav-item" passHref>
-                <Link href="#section-5">
+              <li className="nav-item">
+                <Link href="#section-5" passHref>
                   <a className="nav-link ">CONTACT</a>
                 </Link>
               </li>
