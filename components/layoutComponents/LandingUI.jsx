@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 const LandingUI = () => {
   return (
@@ -23,39 +24,46 @@ const LandingUI = () => {
             alignItems: "center",
             display: "flex",
             flexDirection: "column",
-            borderRadius: "20px",
             backgroundImage:
-              "linear-gradient(90deg,rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75))",
+              "linear-gradient(90deg,rgba(255, 255, 255, 0.55),rgba(255, 255, 255, 0.55))",
+            borderRadius: "20px",
           }}
         >
-          <h6 style={{ fontWeight: "300", color: "whitesmoke" }}>
+          <h6 style={{ fontWeight: "600", color: "#141414" }}>
             Over 60 years in the tea industry
           </h6>
-          <div className="container py-3">
-            <h1
-              style={{
-                fontSize: "4em",
-                fontWeight: "600",
-                color: "whitesmoke",
-                lineHeight: "0.9em",
-                fontFamily: "sans-serif",
+          <div
+            className="container py-3"
+            style={{
+              fontSize: "3rem",
+              fontWeight: "600",
+              height: "3em",
+              justifyContent: "center",
+              alignItems: "center",
+              display: "flex",
+              color: "#141414",
+              lineHeight: "0.9em",
+            }}
+          >
+            <Typewriter
+              options={{
+                strings: ["Best Quality Tea", "Over 18+ Years"],
+                autoStart: true,
+                loop: true,
+                delay: 100,
               }}
-            >
-              THE BEST QUALITY TEA
-            </h1>
+            />
           </div>
           <p
             style={{
-              fontWeight: "300",
-              color: "whitesmoke",
+              fontWeight: "500",
+              color: "#141414",
               fontSize: "0.9em",
             }}
           >
-            We export the best qaility tea for over 18+ years
-            <br />
-            by maintaining the standard expected of authentic
-            <br />
-            Ceylon Tea and local ingredients, and taking Sri Lanka to the world.
+            We export the best qaility tea for over 18+ years by maintaining the
+            standard expected <br /> of authentic Ceylon Tea and local
+            ingredients, and taking Sri Lanka to the world.
           </p>
         </div>
       </div>
