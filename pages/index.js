@@ -4,7 +4,7 @@ import LandingUI from "../components/layoutComponents/LandingUI";
 import About from "../components/layoutComponents/About";
 import Products from "../components/layoutComponents/Products";
 import Footer from "../components/layoutComponents/Footer";
-import Services from "../components/layoutComponents/Services";
+import Deference from "../components/layoutComponents/Deference";
 import Link from "next/link";
 
 export default function Home() {
@@ -90,7 +90,7 @@ export default function Home() {
         <About />
       </section>
       <section id="section-4">
-        <Services />
+        <Deference />
       </section>
       <section id="section-5">
         <Footer />

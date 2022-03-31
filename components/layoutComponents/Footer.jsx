@@ -42,7 +42,7 @@ const Footer = () => {
               className="form-control"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
-              placeholder="Enter email"
+              placeholder="Enter your email"
             ></input>
             <button
               type="submit"
@@ -50,8 +50,8 @@ const Footer = () => {
               style={{
                 margin: "10px",
                 marginLeft: "0px",
-                backgroundColor: "green",
-                color: "whitesmoke",
+                backgroundColor: "#999B85",
+                color: "#141414",
               }}
             >
               Submit
