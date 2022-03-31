@@ -23,7 +23,7 @@ export default function Home() {
 
       {/* Navbar */}
       <nav
-        className="navbar navbar-expand-lg fixed-top"
+        className="navbar navbar-expand-lg fixed-top navbar-light bg-light"
         style={{ backgroundColor: "#FFF", height: "80px" }}
       >
         <div className="container-fluid">
@@ -38,8 +38,8 @@ export default function Home() {
           <button
             className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
+            data-toggle="collapse"
+            data-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
@@ -55,23 +55,23 @@ export default function Home() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link " href="#section-2">
-                  <a className="nav-link active">PRODUCTS</a>
+                <Link href="#section-2">
+                  <a className="nav-link ">PRODUCTS</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#section-3">
-                  <a className="nav-link active">ABOUT</a>
+                <Link href="#section-3">
+                  <a className="nav-link ">ABOUT</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#section-4">
-                  <a className="nav-link active">OUR SERVICES</a>
+                <Link href="#section-4">
+                  <a className="nav-link ">OUR SERVICES</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#section-5">
-                  <a className="nav-link active">CONTACT</a>
+                <Link href="#section-5">
+                  <a className="nav-link ">CONTACT</a>
                 </Link>
               </li>
             </ul>
@@ -95,6 +95,17 @@ export default function Home() {
       <section id="section-5">
         <Footer />
       </section>
+
+      <script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"
+      ></script>
     </div>
   );
 }
