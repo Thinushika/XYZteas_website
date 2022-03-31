@@ -25,21 +25,25 @@ const LandingUI = () => {
             flexDirection: "column",
             borderRadius: "20px",
             backgroundImage:
-              "linear-gradient(90deg,rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55))",
+              "linear-gradient(90deg,rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75))",
           }}
         >
           <h6 style={{ fontWeight: "300", color: "whitesmoke" }}>
             Over 60 years in the tea industry
           </h6>
-          <h1
-            style={{
-              fontSize: "4em",
-              color: "whitesmoke",
-              lineHeight: "0.9em",
-            }}
-          >
-            THE BEST <br /> QUALITY TEA
-          </h1>
+          <div className="container py-3">
+            <h1
+              style={{
+                fontSize: "4em",
+                fontWeight: "600",
+                color: "whitesmoke",
+                lineHeight: "0.9em",
+                fontFamily: "sans-serif",
+              }}
+            >
+              THE BEST QUALITY TEA
+            </h1>
+          </div>
           <p
             style={{
               fontWeight: "300",
